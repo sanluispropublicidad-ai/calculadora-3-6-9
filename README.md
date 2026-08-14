@@ -43,10 +43,22 @@ Cifras que reprueban aunque terminen en 50: **$950** (raíz 5), **$1,900** (raí
 | Archivo | Qué es |
 | :--- | :--- |
 | `CALCULADORA_REJA_150X.html` | Dictaminador de reja. Se abre en el navegador, sin instalar nada. |
+| `index.html` | Redirige a la calculadora. Punto de entrada del despliegue en línea. |
 | `motor_precios_sesion_150X.py` | Motor de barrido con la Ecuación Maestra V3.3. Corre en Git Bash. |
 | `salida_motor.txt` | Última corrida del motor, cuatro configuraciones en base 3. |
 | `README.md` | Este archivo: doctrina, uso y procedencia de los números. |
 | `AGENTS.md` | Reglas operativas del proyecto para agentes de IA. |
+
+---
+
+## En línea
+
+La calculadora está desplegada en Vercel, servida desde un repo público de GitHub:
+
+- **URL en vivo:** https://calculadora-3-6-9.vercel.app
+- **Repo:** https://github.com/sanluispropublicidad-ai/calculadora-3-6-9
+
+Cualquier `git push` a `main` redespliega solo. El motor Python es local: no corre en Vercel.
 
 ---
 
@@ -134,6 +146,7 @@ usa VERIFICADO + INFERIDO + ESTIMADO, y por eso sus óptimos son propuestas, no 
 ```
 CALCULADORA-3-6-9/
 ├── CALCULADORA_REJA_150X.html   # dictaminador de reja (navegador)
+├── index.html                   # entrada del despliegue en línea
 ├── motor_precios_sesion_150X.py # motor de barrido (Python)
 ├── salida_motor.txt             # última corrida del motor
 ├── README.md                    # doctrina y uso

@@ -84,6 +84,8 @@ La calculadora HTML no requiere comando: doble clic y abre en el navegador.
 
 - Operador: OOAZ (Osiel Omar Aparicio Zamudio) — SAN LUIS PRO, fotografía y video.
 - Proyecto: `C:\Users\SAN LUIS PRO\OOAZ_FILES\PROYECTOS\CALCULADORA-3-6-9\`
+- En línea: https://calculadora-3-6-9.vercel.app · repo https://github.com/sanluispropublicidad-ai/calculadora-3-6-9
+- Despliegue: `git push` a `main` redespliega solo en Vercel. El motor Python es local, no corre en Vercel.
 - Negocio verificado: `C:\Users\SAN LUIS PRO\OOAZ_FILES\00-SANLUISPRO\`
 - Reglas universales: `C:\Users\SAN LUIS PRO\OOAZ_FILES\AGENTS.md`
 - No-técnico en construcción, experto en evaluación del resultado: entregar hecho, nunca tutorial.
@@ -136,4 +138,5 @@ La calculadora HTML no requiere comando: doble clic y abre en el navegador.
 
 <!-- DYNAMIC_RULES_START -->
 - [2026-08-13] AGENTS.md creado al formato Híbrido SOTA v4.0 (frontmatter + tags XML + zona dinámica).
+- [2026-08-13] Desplegado en Vercel: https://calculadora-3-6-9.vercel.app · repo público https://github.com/sanluispropublicidad-ai/calculadora-3-6-9 · push a main redespliega.
 <!-- DYNAMIC_RULES_END -->
